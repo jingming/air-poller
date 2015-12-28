@@ -1,0 +1,26 @@
+{
+  "name": "air-poller",
+  "description": "check flight prices so you don't have to!",
+  "version": "0.0.1",
+  "author": "Jingming Niu <niu@jingming.ca>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jingming/air-poller.git"
+  },
+  "dependencies": {
+    "request": "2.*",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "twilio": "2.*",
+    "mongoose": "4.*",
+    "underscore": "1.*"
+  },
+  "main": "./lib",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "MIT"
+}

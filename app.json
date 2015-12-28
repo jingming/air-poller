@@ -1,0 +1,8 @@
+{
+  "name": "flight price checks",
+  "description": "app to check flight prices",
+  "repository": "https://github.com/jingming/air-poller",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "flight", "price", "check"],
+  "image": "jingming/air-poller"
+}
