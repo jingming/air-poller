@@ -11,13 +11,23 @@
     "request": "2.*",
     "ejs": "2.3.3",
     "express": "4.13.3",
+    "body-parser": "1.14.*",
     "twilio": "2.*",
     "mongoose": "4.*",
     "underscore": "1.*"
   },
+  "devDependencies": {
+    "jasmine-node": "2.0.*",
+    "jshint": "2.8.*",
+    "jscs": "2.6.*"
+  },
   "main": "./lib",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jasmine-node --captureExceptions spec",
+    "jshint": "jshint lib/**",
+    "jscs": "jscs -c .jscs lib/**",
+    "check": "npm run jshint; npm run jscs"
   },
   "engines": {
     "node": ">=0.8.0"
